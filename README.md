@@ -1,7 +1,9 @@
 Classificador de Texto usando Redes Neurais Convolucionais (CNN)
+
 Este repositório contém código para treinar um classificador de texto usando Redes Neurais Convolucionais (CNN) com o TensorFlow. O modelo é treinado em dados de texto previamente processados e categorizados.
 
 Visão Geral
+
 O código fornecido demonstra como treinar um modelo de classificação de texto usando Redes Neurais Convolucionais (CNN) com o TensorFlow. O processo inclui pré-processamento dos dados, criação do modelo CNN, treinamento e avaliação utilizando a k-fold cross-validation.
 
 Dependências

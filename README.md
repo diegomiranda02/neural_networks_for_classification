@@ -145,7 +145,9 @@ Classification Report:
                          precision    recall  f1-score   support
 
               aprovada       0.66      0.96      0.78        26
+
 aprovada_com_ressalvas       0.00      0.00      0.00         7
+           
            desaprovada       0.72      0.57      0.63        23
 
               accuracy                           0.68        56

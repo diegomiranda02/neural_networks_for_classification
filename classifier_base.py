@@ -46,7 +46,8 @@ def create_model(input_dim, output_dim, max_length, num_classes):
     return modelo
 
 # Processamento e carregamento do dataset
-df = pd.read_csv('/home/sinapses-ia/projects/janus-ia/dataset/dataset_imbalanced_plain_text.csv')
+DATASET = 'CAMINHO PARA O ARQUIVO CSV COM OS DADOS'
+df = pd.read_csv(DATASET)
 df['text'] = df['text'].apply(clean_text)
 
 # Encode dos labels

@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split
 
 from sklearn.metrics import f1_score, precision_score, recall_score, classification_report
 
-
+# Arquivo onde irá ser armazenado o modelo treinado com o conjunto de dados
 modelo_arquivo = '/home/sinapses-ia/projects/janus-ia/model/cnn_embedding.h5'
 
 # Função para limpeza dos dados
